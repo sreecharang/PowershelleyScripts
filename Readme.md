@@ -13,7 +13,7 @@ This application explains how to programmatically create service princial names 
 1. Azure Active direcotry users need to trigger the Ansible playbook by providing the required values in JSON or YAML format.
 2. All Function apps using managed identities, So there is no requirement of rotating keys. 
 3. Secrets for newly generated SPN/AppReg are stored under the keyvault provided by user.
-4. Users need to grant the **Set permission on the Function App's service principal to provide access. 
+4. Users need to grant the **Set** permission on the Function App's service principal to provide access. 
 5. Properties and information of the SPNs/App Registration and groups are shared through email with the owners. 
 
 ## Topoloy 
