@@ -6,7 +6,7 @@ This application explains how to programmatically create service princial names 
 
 * An Azure Subscription. 
 * Azure tenant 
-* Permissions to Function App Service Principal, as **Application.ReadWrite.OwnedBy 
+* Permissions to Function App Service Principal, as **Application.ReadWrite.OwnedBy**
 
 ## How it Works
 
