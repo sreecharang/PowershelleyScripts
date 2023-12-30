@@ -18,6 +18,9 @@ This application explains how to programmatically create service princial names 
 
 ## Topoloy 
 
+<p align="center">
+  <img src="./SPN-Group-Creation-Azure/Topology/Blank diagram.png" alt="Topology of SPN Creation" width="738">
+</p>
 
 ## Usage 
 
