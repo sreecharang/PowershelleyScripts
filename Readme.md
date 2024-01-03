@@ -8,6 +8,12 @@ This application explains how to programmatically create service princial names 
 * Azure tenant 
 * Permissions to Function App Service Principal, as **Application.ReadWrite.OwnedBy**
 
+## Topoloy 
+
+<p align="center">
+  <img src="./SPN-Group-Creation-Azure/Topology/Blank diagram.png" alt="Topology of SPN Creation" width="738">
+</p>
+
 ## How it Works
 
 1. Azure Active direcotry users need to trigger the Ansible playbook by providing the required values in JSON or YAML format.
@@ -15,12 +21,6 @@ This application explains how to programmatically create service princial names 
 3. Secrets for newly generated SPN/AppReg are stored under the keyvault provided by user.
 4. Users need to grant the **Set** permission on the Function App's service principal to provide access. 
 5. Properties and information of the SPNs/App Registration and groups are shared through email with the owners. 
-
-## Topoloy 
-
-<p align="center">
-  <img src="./SPN-Group-Creation-Azure/Topology/Blank diagram.png" alt="Topology of SPN Creation" width="738">
-</p>
 
 ## Usage 
 
