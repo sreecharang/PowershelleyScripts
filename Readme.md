@@ -30,3 +30,28 @@ This application explains how to programmatically create service princial names 
 
 
 
+## Topoloy For Multiple Tenants
+
+<p align="center">
+  <img src="./SPN-Group-Creation-Azure/Topology/multiple-tenants.png" alt="Topology of multiple tenants" width="738">
+</p>
+
+
+## How it Works 
+
+1. In this implementation, a single function app manages the service principal names(SPNs) of multiple tenants. This is achieved by utilizing the SPN credentials to manage SPNs and app registraitons across multiple tenants. 
+
+2. By allowing groups to be created on multiple tenants, this implementation provides a flexible solution for managing and organizing resources across different tenants. 
+
+3. The naming conventions of SPNs, app registrations and groups can be categorized based on tenant's naming conventions. This ensures consistency and easy identification of resources across different tenants. 
+
+
+## Usage 
+
+*  A single function app servers as the central location for managing SPNs and App Registrations across multiple tenants. To ensure a smooth operation, users must specify the tenant name as per the centralized documentation provided. 
+
+* With reference to the tenant name, the tenant ID will be called, and the function app will able to create, update or delete SPNs within the tenant's Active Directory. 
+
+* By adhering to these guidelines, users can effectively manage SPNs and app registration for multiple tenants while maintaining a consistent naming conventions across tenants. 
+
+
